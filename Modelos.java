@@ -24,3 +24,7 @@ public class TartasFrerardColas {
     }
  // ======= M/M/1/K =======//
     public static void mm1k(double lambda, double mu, int K) {
+        System.out.println("===== MODELO M/M/1/" + K + " - Tartas Frerard =====");
+
+        double rho = lambda / mu;
+        double P0;

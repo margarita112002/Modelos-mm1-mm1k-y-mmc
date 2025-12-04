@@ -22,3 +22,5 @@ public class TartasFrerardColas {
         System.out.println("Wq (tiempo en cola): " + Wq);
         System.out.println();
     }
+ // ======= M/M/1/K =======//
+    public static void mm1k(double lambda, double mu, int K) {

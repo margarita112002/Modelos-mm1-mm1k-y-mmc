@@ -33,4 +33,6 @@ public class TartasFrerardColas {
         } else {
             P0 = (1 - rho) / (1 - Math.pow(rho, K + 1)); 
         }
+         // Probabilidad de que el sistema este lleno
+        double PK = P0 * Math.pow(rho, K);
         

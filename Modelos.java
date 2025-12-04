@@ -45,3 +45,14 @@ public class TartasFrerardColas {
         double W = L / lambdaEf;
         double Lq = L - (1 - P0); //M/M/1/K
         double Wq = Lq / lambdaEf;
+        System.out.println("λ: " + lambda);
+        System.out.println("μ: " + mu);
+        System.out.println("K (capacidad): " + K);
+        System.out.println("ρ: " + rho);
+        System.out.println("P0: " + P0);
+        System.out.println("P(K) (sistema lleno): " + PK);
+        System.out.println("L: " + L);
+        System.out.println("Lq: " + Lq);
+        System.out.println("W: " + W);
+        System.out.println("Wq: " + Wq);
+        System.out.println();

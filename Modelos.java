@@ -39,4 +39,9 @@ public class TartasFrerardColas {
         for (int n = 0; n <= K; n++) {
             L += n * P0 * Math.pow(rho, n);
         }
-        
+        double lambdaEf = lambda * (1 - PK);
+
+        // Tiempos
+        double W = L / lambdaEf;
+        double Lq = L - (1 - P0); //M/M/1/K
+        double Wq = Lq / lambdaEf;

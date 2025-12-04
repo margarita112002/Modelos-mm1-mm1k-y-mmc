@@ -28,3 +28,9 @@ public class TartasFrerardColas {
 
         double rho = lambda / mu;
         double P0;
+        if (rho == 1) {
+            P0 = 1.0 / (K + 1);
+        } else {
+            P0 = (1 - rho) / (1 - Math.pow(rho, K + 1)); // Formula
+        }
+        

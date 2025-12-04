@@ -11,3 +11,14 @@ public class TartasFrerardColas {
      double Lq = (rho * rho) / (1 - rho);         // Lq = ρ² / (1 - ρ)
      double W = L / lambda;                       // W = L / λ
      double Wq = Lq / lambda;                     // Wq = Lq / λ
+
+    System.out.println("λ (tasa de llegadas): " + lambda);
+        System.out.println("μ (tasa de servicio): " + mu);
+        System.out.println("ρ (utilización): " + rho);
+        System.out.println("P0 (sistema vacío): " + P0);
+        System.out.println("L (clientes en el sistema): " + L);
+        System.out.println("Lq (clientes en cola): " + Lq);
+        System.out.println("W (tiempo en sistema): " + W);
+        System.out.println("Wq (tiempo en cola): " + Wq);
+        System.out.println();
+    }

@@ -31,6 +31,6 @@ public class TartasFrerardColas {
         if (rho == 1) {
             P0 = 1.0 / (K + 1);
         } else {
-            P0 = (1 - rho) / (1 - Math.pow(rho, K + 1)); // Formula
+            P0 = (1 - rho) / (1 - Math.pow(rho, K + 1)); 
         }
         

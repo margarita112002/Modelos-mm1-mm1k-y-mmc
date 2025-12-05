@@ -63,6 +63,14 @@ public class TartasFrerardColas {
     public static double factorial(int n) {
         double f = 1;
         for (int i = 1; i <= n; i++) f *= i;
+        //===== MAIN =====//
+    public static void main(String[] args) {
+
+        // ESCENARIO DE TARTERÍA FRERARD//
+        double lambda = 6;   // 6 clientes por hora llegan
+        double mu = 8;       // 1 pastelero atiende 8 por hora
+        int K = 5;           // Capacidad máxima de clientes
+        int c = 2;           // Dos pasteleros atendiendo
         return f;
     }
 

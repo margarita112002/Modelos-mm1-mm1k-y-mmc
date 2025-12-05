@@ -56,3 +56,13 @@ public class TartasFrerardColas {
         System.out.println("W: " + W);
         System.out.println("Wq: " + Wq);
         System.out.println();
+
+         }
+
+    // ===== Factorial =====
+    public static double factorial(int n) {
+        double f = 1;
+        for (int i = 1; i <= n; i++) f *= i;
+        return f;
+    }
+
